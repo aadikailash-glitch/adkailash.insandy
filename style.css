@@ -2185,68 +2185,79 @@ button, input, select, textarea {
   background: rgba(255, 165, 79, 0.08);
 }
 
-/* Designer Credit Card / Badge */
+/* Minimal Designer Credit */
 .footer-designer-credit {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: 6px;
+  align-items: center;
+  justify-content: flex-end;
 }
 
+.designer-text {
+  font-size: 0.8rem;
+  color: #78716C;
+  line-height: 1.5;
+}
+
+.designer-link {
+  color: #FFA54F;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: rgba(255, 165, 79, 0.35);
+  font-weight: 500;
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+}
+
+.designer-link:hover {
+  color: #FFB877;
+  text-decoration-color: #FFA54F;
+}
+
+/* Minimal styling for legacy/badge structure */
 .designer-label-wrap {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 8px;
-  flex-wrap: wrap;
+  gap: 5px;
 }
 
 .designer-label {
-  font-size: 0.75rem;
-  color: #8C847E;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  font-weight: 600;
+  font-size: 0.8rem;
+  color: #78716C;
+  font-weight: 400;
+  text-transform: none;
+  letter-spacing: normal;
 }
 
 .designer-link-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
-  background: linear-gradient(135deg, rgba(255, 165, 79, 0.14), rgba(255, 107, 0, 0.05));
-  border: 1px solid rgba(255, 165, 79, 0.35);
-  padding: 6px 14px;
-  border-radius: 999px;
+  display: inline;
+  background: none;
+  border: none;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
   color: #FFA54F;
-  text-decoration: none;
-  font-size: 0.85rem;
-  font-weight: 700;
-  letter-spacing: -0.01em;
-  box-shadow: 0 2px 10px rgba(255, 122, 0, 0.08);
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: rgba(255, 165, 79, 0.35);
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
 }
 
 .designer-link-badge:hover {
-  background: linear-gradient(135deg, rgba(255, 165, 79, 0.25), rgba(255, 107, 0, 0.15));
-  border-color: rgba(255, 165, 79, 0.65);
+  background: none;
+  border: none;
+  transform: none;
+  box-shadow: none;
   color: #FFB877;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(255, 122, 0, 0.22);
+  text-decoration-color: #FFA54F;
 }
 
 .designer-link-badge svg {
-  width: 13px;
-  height: 13px;
-  stroke: currentColor;
-  transition: transform 0.3s ease;
-}
-
-.designer-link-badge:hover svg {
-  transform: translate(2px, -2px);
+  display: none;
 }
 
 .designer-subtext {
-  font-size: 0.74rem;
-  color: #78716C;
+  display: none;
 }
 
 /* Secondary Sub-Row */
