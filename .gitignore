@@ -18,3 +18,7 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+
+# Local development server (do not deploy to production CDN)
+dev-server.js
+server.js
