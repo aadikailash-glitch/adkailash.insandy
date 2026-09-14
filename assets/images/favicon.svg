@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <circle cx="32" cy="32" r="30" fill="#FF6B00"/>
+  <circle cx="32" cy="32" r="28" stroke="#FFE082" stroke-width="1.5"/>
+  <!-- Mountain -->
+  <polygon points="12,50 32,18 52,50" fill="#9A3412"/>
+  <polygon points="26,28 32,18 38,28 35,31 32,29 29,31" fill="#FFFFFF"/>
+  <!-- Trishul / Om motif -->
+  <path d="M32,18 L32,48" stroke="#FFE082" stroke-width="2" stroke-linecap="round"/>
+  <path d="M26,24 Q32,24 32,18 Q32,24 38,24" stroke="#FFFFFF" stroke-width="1.8" fill="none" stroke-linecap="round"/>
+</svg>

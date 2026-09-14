@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 100" fill="none">
+  <!-- Mountain Peaks & Trishul / Om Symbol -->
+  <g transform="translate(10, 10)">
+    <!-- Sun glow behind peaks -->
+    <circle cx="40" cy="40" r="32" fill="url(#sunGlow)" opacity="0.3"/>
+    
+    <!-- Outer Sacred Circle with subtle dashed border -->
+    <circle cx="40" cy="40" r="38" stroke="url(#saffronGrad)" stroke-width="1.5" stroke-dasharray="4 2"/>
+    
+    <!-- Mountain Base -->
+    <polygon points="12,68 40,22 68,68" fill="url(#mountainGrad)" />
+    <!-- Snow Cap -->
+    <polygon points="32,36 40,22 48,36 44,40 40,37 36,40" fill="#FFFFFF" />
+    
+    <!-- Left Small Peak -->
+    <polygon points="5,68 24,42 42,68" fill="#FF8A3D" opacity="0.85" />
+    <polygon points="19,50 24,42 29,50 26,52 24,50 22,52" fill="#FFFFFF" opacity="0.9" />
+    
+    <!-- Right Small Peak -->
+    <polygon points="38,68 56,44 75,68" fill="#E65100" opacity="0.85" />
+    <polygon points="51,52 56,44 61,52 58,54 56,52 54,54" fill="#FFFFFF" opacity="0.9" />
+
+    <!-- Center Line -->
+    <path d="M40,22 L40,65" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round"/>
+    <!-- Sacred Om / Trishul Prongs -->
+    <path d="M34,28 Q37,20 40,20 Q43,20 46,28" stroke="#FFE082" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <circle cx="40" cy="18" r="2.5" fill="#FFD54F"/>
+  </g>
+  
+  <!-- Text Brand -->
+  <g transform="translate(100, 24)">
+    <text x="0" y="32" font-family="'Cinzel', 'Outfit', serif, sans-serif" font-size="34" font-weight="800" letter-spacing="1.5" fill="#1C1917">
+      AADI<tspan fill="#FF6B00">KAILASH</tspan><tspan fill="#EA580C" font-size="28">.IN</tspan>
+    </text>
+    <text x="2" y="52" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" letter-spacing="4" fill="#78716C">
+      OM PARVAT &amp; CHHOTA KAILASH YATRA
+    </text>
+  </g>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="saffronGrad" x1="0" y1="0" x2="80" y2="80" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FF6B00"/>
+      <stop offset="1" stop-color="#FF9E40"/>
+    </linearGradient>
+    <linearGradient id="mountainGrad" x1="40" y1="22" x2="40" y2="68" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#EA580C"/>
+      <stop offset="1" stop-color="#9A3412"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(40 40) rotate(90) scale(32)">
+      <stop stop-color="#FF9800" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#FF6B00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
