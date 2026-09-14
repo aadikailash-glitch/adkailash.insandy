@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
       `Please share the detailed day-wise itinerary and booking availability.`
     );
     if (btnBookWhatsapp) {
-      btnBookWhatsapp.href = `https://wa.me/917617561066?text=${message}`;
+      btnBookWhatsapp.href = `https://wa.me/918057696762?text=${message}`;
     }
   }
 
@@ -262,7 +262,7 @@ document.addEventListener('DOMContentLoaded', () => {
       );
 
       // Redirect to WhatsApp
-      window.open(`https://wa.me/917617561066?text=${waMsg}`, '_blank');
+      window.open(`https://wa.me/918057696762?text=${waMsg}`, '_blank');
       closeBookingModal();
       alert('Thank you! Your inquiry has been forwarded to our Pithoragarh Expedition Desk on WhatsApp. Our expert will contact you within 30 minutes.');
     });
@@ -285,7 +285,7 @@ document.addEventListener('DOMContentLoaded', () => {
         `• Yatris: ${travellers}\n\n` +
         `Kindly share available departure dates and quotes.`
       );
-      window.open(`https://wa.me/917617561066?text=${quickMsg}`, '_blank');
+      window.open(`https://wa.me/918057696762?text=${quickMsg}`, '_blank');
     });
   }
 });
