@@ -2899,7 +2899,7 @@ button, input, select, textarea {
 }
 
 .subpage-hero-om {
-  background-image: var(--dark-hero-overlay), url('assets/images/om-parvat.jpg');
+  background-image: var(--dark-hero-overlay), url('assets/images/om-parvat-cover.jpg');
 }
 
 .breadcrumb {
@@ -3171,7 +3171,7 @@ button, input, select, textarea {
 }
 
 .subpage-hero-essential {
-  background-image: var(--dark-hero-overlay), url('assets/images/om-parvat.jpg');
+  background-image: var(--dark-hero-overlay), url('assets/images/om-parvat-cover.jpg');
 }
 
 .subpage-hero-helicopter {
